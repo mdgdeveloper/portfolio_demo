@@ -1,4 +1,5 @@
 import "./about.css";
+import Award from "../../img/award.png"
 
 const About = () => {
     return (
@@ -21,6 +22,15 @@ const About = () => {
                 id maximus quam massa nec nibh. Cras ut consequat massa. Class aptent taciti sociosqu ad litora torquent
                  per conubia nostra, per inceptos himenaeos. 
                 </p>
+                <div className="a-awards">
+                    <img src={Award} alt="" className="a-award-img" />
+                    <div className="a-award-texts">
+                        <h4 className="a-award-title">Azure Fundamentals</h4>
+                        <p className="a-award-desc">
+                            Information about the Azure Fundamentals award (look for it in Google once the design is completed)
+                        </p>
+                    </div>
+                </div>
             </div>
         </div>
     )

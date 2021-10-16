@@ -15,6 +15,7 @@
 
 .a-right{
     flex: 1;
+    padding-right: 50px;
 }
 
 .a-card.bg{
@@ -38,4 +39,40 @@
     object-fit: cover;
     filter: grayscale(100%);
 
+}
+
+.a-award-img{
+    width: 220px;
+
+}
+
+.a-title{
+    font-weight: 400;
+
+}
+
+.a-sub{
+    margin: 20px 0px;
+}
+
+.a-desc{
+    font-weight: 300;
+}
+
+.a-awards{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 50px;
+}
+
+.a-award-texts{
+    width: 70%;
+}
+
+.a-award-title{
+    font-weight: bold;
+    color: #444;
+    margin-bottom: 10px;
 }

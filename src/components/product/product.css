@@ -26,3 +26,11 @@
 .p-img{
     width: 100%;
 }
+
+@media screen and (max-width: 480px){
+    .p{
+        width: 100%;
+        margin: 0;
+        margin-bottom: 20px;
+    }
+}

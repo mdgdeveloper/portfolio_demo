@@ -1,5 +1,6 @@
 {
   "name": "portfolio",
+  "homepage": "http://www.sergiomadrigal",
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",

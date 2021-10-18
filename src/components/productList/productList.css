@@ -31,12 +31,20 @@
 
   .pl{
     width: 100%;
-    padding: 0px;
+    padding: 10px;
 
+  }
+
+  .pl-texts{
+    width: 100%;
   }
 
   .pl-title{
     width: 100%;
     font-size: 20px;
+  }
+
+  .pl-desc{
+    display: none;
   }
 }

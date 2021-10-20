@@ -1,59 +1,48 @@
-.ck{
-background-color: #0492c2;
-position: fixed;
-bottom: 0;
-padding: 20px 50px;
-width: 100%;
-transition: visibility 2s ease;
-visibility: visible;
-opacity: 1;
-
+.ck {
+  background-color: #0492c2;
+  position: fixed;
+  bottom: 0;
+  padding: 20px 50px;
+  width: 100%;
+  transition: visibility 2s ease;
+  visibility: visible;
+  opacity: 1;
 }
 
-.ck-disappear{
-    visibility: hidden;
-    opacity: 0;
-    transition: visibility 0s 0.2s, opacity 0.2s linear;
+.ck-disappear {
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s 0.2s, opacity 0.2s linear;
 }
 
-.ck-wrapper{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
+.ck-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
 }
 
-.ck-message{
-    width: 60%;
+.ck-message {
+  width: 60%;
+  font-size: 15px;
 }
 
-.ck-buttons{
-    width: 20%;
-
+.ck-buttons {
+  width: 20%;
+  margin-left: 20px;
 }
 
-.ck-title{
-    font-size: 20px;
-
+.ck-title {
+  font-size: 20px;
 }
 
-.ck-message{
-    font-size: 15px;
-    
+.ck-accept {
+  background-color: yellowgreen;
+  padding: 8px;
+  margin-right: 20px;
 }
 
-.ck-buttons{
-    margin-left: 20px;
-}
-
-.ck-accept{
-    background-color: yellowgreen;
-    padding: 8px;
-    margin-right: 20px;
-
-}
-
-.ck-decline{
-    background-color: tomato;
-    padding: 8px;
+.ck-decline {
+  background-color: tomato;
+  padding: 8px;
 }
